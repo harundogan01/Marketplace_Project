@@ -1,0 +1,376 @@
+//Media for Responsive Design
+$maxWidthForPixel5: 393px;
+
+.block2_rightTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+};
+
+.block1_rightTitle {
+    font-size: 16px;
+    font-weight: bold;
+};
+
+@media (max-width: 767px) {
+    .bigrightBtn {
+           right: -62%;
+    }
+}
+
+@media (max-width: 726px) {
+    .bigrightBtn {
+        right: -56%;
+    }
+    .horizontalTabs .v-slide-group__prev {
+        display: none!important;
+    }
+    .secondStep_img {
+        margin-left: 0!important;
+    }
+    .taxAverageSpan2 {
+        margin-left: 50%!important;
+    }
+    .rightDiv .cbx {
+        margin-left: 25%;
+    }
+    .orSpan2 {
+        margin-left: 55%!important;
+    }
+}
+
+@media (max-width: 651px) {
+    .bigrightBtn {
+        right: -50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .bigrightBtn {
+        right: -45%;
+    }
+}
+
+@media (max-width: 540px) {
+    .bigrightBtn {
+        right: -40%;
+    }
+}
+
+@media (max-width: 496px) {
+    .bigrightBtn {
+        right: -35%;
+    }
+}
+
+@media (max-width: 472px) {
+    .bigrightBtn {
+        right: -30%;
+    }
+}
+
+@media (max-width: 442px) {
+    .bigrightBtn {
+        right: -20%;
+    }
+}
+
+@media (max-width: 400px) {
+    .bigrightBtn {
+        right: -15%;
+    }
+}
+
+@media (max-width: 380px) {
+    .bigrightBtn {
+        right: -4%;
+    }
+}
+
+@media (max-width: 340px) {
+    .bigrightBtn {
+        right: 2%;
+    }
+}
+
+//Media For Phones
+@media (max-width: 355px) {
+    .bigLeftBtn {
+        display: none;
+    }
+    .smallLeftBtn {
+        display: block;
+    }
+    .bigRightBtn {
+        display: none;
+    }
+    .smallRightBtn {
+        right: -28%;
+        display: block;
+    }
+}
+@media (max-width: 360px) {
+    .bigLeftBtn {
+        display: block;
+    }
+    .smallLeftBtn {
+        display: none;
+    }
+    .bigRightBtn {
+        right: -10%;
+        display: block;
+    }
+    .smallRightBtn {
+        display: none;
+    }
+    .finalBtn {
+        margin-left: 10%!important;
+    }
+}
+@media (min-width: 365px) {
+    .bigLeftBtn {
+        display: block;
+    }
+    .smallLeftBtn {
+        display: none;
+    }
+    .bigRightBtn {
+        display: block;
+        right: -15%!important;
+    }
+    .smallRightBtn {
+        display: none;
+    }
+}
+@media (width: 375px) {
+    .smallLeftBtn,.smallRightBtn {
+        display: none;
+    }
+    .bigRightBtn {
+        right: -55%!important;
+    }
+}
+@media (max-width: 400px) {
+    .finalBtn {
+        margin-left: 10%!important;
+    }
+}
+@media (max-width: 500px) {
+    .lastStep_img {
+        margin-left: 6%!important;
+    }
+    .finalBtn {
+        margin-left: 10%;
+    }
+    .finalSpan {
+        margin-left: 0!important;
+    }
+}
+@media (min-width: 389px) {
+    .bigRightBtn {
+        right: -18%!important;
+    }
+}
+@media (min-width: 411px) {
+    .bigLeftBtn {
+        display: block;
+    }
+    .smallLeftBtn {
+        display: none;
+    }
+    .bigRightBtn {
+        display: block;
+        right: -23%!important;
+    }
+    .smallRightBtn {
+        display: none;
+    }
+    .finalBtn {
+        margin-left: 15%!important;
+    }
+    .finalSpan {
+        margin-left: 10%!important;
+    }
+}
+@media (min-width: 500px) {
+    .bigLeftBtn {
+        display: block;
+    }
+    .smallLeftBtn {
+        display: none;
+    }
+    .bigRightBtn {
+        display: block;
+        right: -45%!important;
+    }
+    .smallRightBtn {
+        display: none;
+    }
+    .finalBtn {
+        margin-left: 25%!important;
+    }
+    .finalSpan {
+        margin-left: 25%!important;
+    }
+}
+@media (max-width: 300px) {
+    .bigLeftBtn {
+        display: none!important;
+    }
+    .smallLeftBtn {
+        display: block!important;
+    }
+    .bigRightBtn {
+        display: none!important;
+    }
+    .smallRightBtn {
+        display: block!important;
+    }
+    .step_final_title {
+        font-size: 0.9rem;
+    }
+    .finalBtn {
+        margin-left: -13%!important;
+    }
+}
+@media (max-width: 560px) {
+    .verticalTabs {
+        display: none;
+    }
+}
+@media (min-width: 561px) {
+    .horizontalTabs {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .bigLeftBtn {
+        display: block;
+    }
+    .smallLeftBtn {
+        display: none;
+    }
+    .bigRightBtn {
+        display: block;
+        right: -62%!important;
+    }
+    .smallRightBtn {
+        display: none;
+    }
+    .finalSpan {
+        margin-left: 20%!important;
+    }
+    
+}
+@media (min-width: 780px) {
+    .bigLeftBtn {
+        display: block;
+    }
+    .smallLeftBtn {
+        display: none;
+    }
+    .bigRightBtn {
+        display: block;
+        right: -65%!important;
+    }
+    .smallRightBtn {
+        display: none;
+    }
+    .finalSpan {
+        margin-left: 25%!important;
+    }
+}
+.firstStep_img {
+    margin-top: 30%;
+}
+
+.secondStep_img {
+    margin-left: 25%;
+    width: 220px;
+}
+
+.header_title {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+}
+
+.input-group-text:first-child {
+    height: 77%;
+}
+
+.percentInputGroup .input-group-text,.currencyInputGroup2 .input-group-text {
+    height: 100%;
+}
+
+.taxAverageDiv {
+    margin-top: 8%;
+}
+
+.taxAverageSpan {
+    font-size: 16px;
+    color: #000;
+}
+
+.taxAverageInput {
+    margin-top: 15%!important;
+}
+
+.separator {
+    margin-top: 7%;
+}
+
+.lastPharaghrapForStep2 {
+    margin-top: 7%;
+}
+
+.orSpan {
+    padding-top: 2%;
+    margin-right: 2%;
+}
+
+.currencyTextbox {
+    margin-top: 10%;
+}
+
+.cbx {
+    margin-top: 4px!important;
+}
+
+.mainDiv,.leftDiv,.rightDiv {
+    display: inline-block;
+}
+
+.percentInputGroup,.currencyInputGroup2 {
+height: 60%;
+}
+
+.currencyTextbox2 {
+    margin-right: 18%;
+}
+.currencyInputForCountry {
+    margin-top: 10%;
+}
+.orSpan2 {
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+.lastStep_img {
+    width: 250px;
+    margin-left: 20%;
+}
+
+.step_final_title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.finalBtn {
+    margin-left: 30%;
+}
+
+.finalSpan {
+    margin-left: 25%;
+}
