@@ -564,16 +564,16 @@ export default {
         if (!this.$v.$invalid) {
           this.step3 = true;
           this.step2 = false;
-          // setTimeout(() => {
-          //   this.step = true;
-          //   this.step3 = false;
-          //   this.selectedMarketplace = null;
-          //   this.selectedMarketplace2 = null;
-          //   this.currencyInputForCountry = "";
-          //   this.currencyInputText = "";
-          //   this.percentInputText = "";
-          //   this.taxAverageText = "";
-          // }, 6000);
+          setTimeout(() => {
+            this.step = true;
+            this.step3 = false;
+            this.selectedMarketplace = null;
+            this.selectedMarketplace2 = null;
+            this.currencyInputForCountry = "";
+            this.currencyInputText = "";
+            this.percentInputText = "";
+            this.taxAverageText = "";
+          }, 6000);
         }
       }
     },
